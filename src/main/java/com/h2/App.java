@@ -1,3 +1,5 @@
+package com.h2;
+
 /**
  * Hello world!
  *
@@ -9,14 +11,14 @@ public class App
         System.out.println( "Hello World!" );
     }
 
-    public static int doubleTheNumber(int num) {
-        return 2 * num;
-    }
+    public static int doubleTheNumber(int number) {
 
-    private static int add(int[] num) {
+        return 2 * number;
+    }
+    private static int add(int[] numbers) {
         var sum = 0;
-        for(int number: num) {
-            sum += num;
+        for(int number: numbers) {
+            sum += number;
         }
         return sum;
     }
