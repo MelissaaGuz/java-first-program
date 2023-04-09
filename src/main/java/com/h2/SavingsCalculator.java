@@ -1,7 +1,5 @@
 package com.h2;
 
-public class SavingsCalculator {
-}
 package com.h2;
 
         import java.time.LocalDate;
