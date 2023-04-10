@@ -1,7 +1,5 @@
 package com.h2;
 
-package com.h2;
-
         import java.time.LocalDate;
         import java.time.YearMonth;
 
